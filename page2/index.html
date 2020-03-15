@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script>
+      /*--# window.mccall = mcc;--*/
+    </script>
+    <style>
+      body {
+        overflow: hidden;
+      }
+      .bg {
+        background: #ddd;
+        width: 100px;
+        height: 300px;
+        overflow: auto;
+      }
+      .relative {
+        /* height: 9999px; */
+      }
+      ol {
+        list-style: lower-alpha;
+      }
+    </style>
+    <script>
+      // 默认cookie
+      document.cookie = 'key=page2;';
+      // 测试SameSite=Strict
+      document.cookie = 'key2=page2; SameSite=Strict';
+      // 测试SameSite=Lax
+      document.cookie = 'key3=page2; SameSite=Lax';
+      // 测试SameSite=None
+      document.cookie = 'key4=page2; SameSite=None; Secure';
+    </script>
+  </head>
+  <body>
+    我是test页面
+  </body>
+  <!-- <script>
+    document.querySelector('.bg').addEventListener('scroll', ev => {
+        console.log(ev.target.scrollTop);
+      })
+    </script> -->
+</html>
