@@ -1,4 +1,5 @@
 # 相关文章
+[SameSite - 了解篇](https://juejin.im/post/5e6cee75e51d4526fe65285a)
 
 # 测试说明
 测试未测试全部的请求方式，根据影响的区别挑取两种进行测试：链接跳转和iframe嵌套
